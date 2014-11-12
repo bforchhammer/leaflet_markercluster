@@ -1,0 +1,24 @@
+markercluster:
+  remote: https://github.com/perliedman/leaflet-control-geocoder
+  version: 0.4.0
+  license:
+    name: MIT
+    url: https://github.com/Leaflet/Leaflet.markercluster/blob/v0.4.0/MIT-LICENCE.txt
+    gpl-compatible: true
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js: {}
+  css:
+    theme:
+      //cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css: {}
+    component:
+      //cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css: {}
+  dependencies:
+    - leaflet/leaflet
+
+wrapper:
+  version: VERSION
+  js:
+    assets/script.js: {}
+  dependencies:
+    - leaflet_markercluster/markercluster
+    - leaflet/leaflet-drupal

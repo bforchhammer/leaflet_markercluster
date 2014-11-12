@@ -1,0 +1,7 @@
+name: Leaflet Markercluster Plugin
+type: module
+description: Integration with the leaflet marker-cluster plugin.
+core: 8.x
+package: Leaflet
+dependencies:
+  - leaflet_markercluster
