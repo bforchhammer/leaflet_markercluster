@@ -35,6 +35,7 @@ class MarkerClusterGroup extends MarkerLayerGroup {
       'group_type' => 'markercluster',
       'label' => $title,
       'features' => $features,
+      'options' => array(),
     );
   }
 
