@@ -4,4 +4,4 @@ description: Integration with the leaflet marker-cluster plugin.
 core: 8.x
 package: Leaflet
 dependencies:
-  - leaflet_markercluster
+  - leaflet
